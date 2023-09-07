@@ -3,62 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Studio</title>
   </head>
   <body>
     <header>
-      <a href="https://panabogdanc.github.io/goit-markup-hw-01/">WebStudio</a>
-      <nav>
+      <a
+        class="main-link"
+        href="https://panabogdanc.github.io/goit-markup-hw-02/"
+        ><span class="main-link-style">Web</span>Studio</a
+      >
+      <nav class="navigation-link">
         <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./portofolio.html">Portofolio</a></li>
-          <li><a href="./contacts.html">Contacts</a></li>
+          <li>
+            <a class="navigation-link-address" href="./index.html">Studio</a>
+          </li>
+          <li>
+            <a class="navigation-link-address" href="./portofolio.html"
+              >Portofolio</a
+            >
+          </li>
+          <li>
+            <a class="navigation-link-address" href="./contacts.html"
+              >Contacts</a
+            >
+          </li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+1212-772-4150">+1 212-772-4150</a></li>
+        <li>
+          <a class="contact-method" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contact-method" href="tel:+1212-772-4150"
+            >+1 212-772-4150</a
+          >
+        </li>
       </ul>
     </header>
 
     <main>
-      <section>
-        <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button type="button">Request our service</button>
+      <section class="first-section">
+        <h1 class="first-section-title">
+          EFFECTIVE SOLUTIONS FOR YOUR BUSINESS
+        </h1>
+        <button class="first-section-button" type="button">
+          Request our service
+        </button>
       </section>
       <section>
         <ul>
           <li>
-            <h3>ATTENTION TO DETAILS</h3>
-            <p>
+            <h3 class="what-we-do-element">ATTENTION TO DETAILS</h3>
+            <p class="what-we-do-description">
               We go into all the details and processes of your business to
               develop a customized solution.
             </p>
           </li>
           <li>
-            <h3>PUNCTUALITY</h3>
-            <p>
+            <h3 class="what-we-do-element">PUNCTUALITY</h3>
+            <p class="what-we-do-description">
               With us, you can feel safe and secure. An important principle of
               the company: respect your time and deadlines.
             </p>
           </li>
           <li>
-            <h3>PLANNING</h3>
-            <p>
+            <h3 class="what-we-do-element">PLANNING</h3>
+            <p class="what-we-do-description">
               You will be able to observe and participate in every phase of
               solution development and implementation.
             </p>
           </li>
           <li>
-            <h3>MODERN TECHNOLOGIES</h3>
-            <p>
+            <h3 class="what-we-do-element">MODERN TECHNOLOGIES</h3>
+            <p class="what-we-do-description">
               We use innovative tools to solve assigned tasks. It's time to
               simplify work processes.
             </p>
           </li>
         </ul>
         <div>
-          <h2>What we do</h2>
+          <h2 class="what-we-do-title">What we do</h2>
           <ul>
             <li>
               <img
@@ -88,7 +121,7 @@
         </div>
       </section>
       <section>
-        <h2>Our Team</h2>
+        <h2 class="team-title">Our Team</h2>
         <ul>
           <li>
             <img
@@ -97,8 +130,8 @@
               height="260"
               alt="Christopher Walker"
             />
-            <h3>Christopher Walker</h3>
-            <p>Product Designer</p>
+            <h3 class="team-member">Christopher Walker</h3>
+            <p class="team-role">Product Designer</p>
           </li>
           <li>
             <img
@@ -107,8 +140,8 @@
               height="260"
               alt="Kylie Evans"
             />
-            <h3>Kylie Evans</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-member">Kylie Evans</h3>
+            <p class="team-role">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -117,8 +150,8 @@
               height="260"
               alt="Ryan Harris"
             />
-            <h3>Ryan Harris</h3>
-            <p>Marketing</p>
+            <h3 class="team-member">Ryan Harris</h3>
+            <p class="team-role">Marketing</p>
           </li>
           <li>
             <img
@@ -127,19 +160,25 @@
               height="260"
               alt="Tyler Moore"
             />
-            <h3>Tyler Moore</h3>
-            <p>UI Designer</p>
+            <h3 class="team-member">Tyler Moore</h3>
+            <p class="team-role">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <a href="https://panabogdanc.github.io/goit-markup-hw-01/">WebStudio</a>
+    <footer class="footer-style">
+      <a
+        class="footer-main-link"
+        href="https://panabogdanc.github.io/goit-markup-hw-02/"
+        ><span class="main-link-style">Web</span>Studio</a
+      >
       <address>
-        695 Park Ave, NY 10065, USA<br />
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
-        <a href="tel:+1212-772-4150">+1 212-772-4150</a>
+        <span class="address-style">695 Park Ave, NY 10065, USA</span><br />
+        <a class="contact-method" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        ><br />
+        <a class="contact-method" href="tel:+1212-772-4150">+1 212-772-4150</a>
       </address>
     </footer>
   </body>
