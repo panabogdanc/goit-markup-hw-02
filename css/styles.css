@@ -9,6 +9,7 @@
 
 body {
   font-family: var(--standard-font);
+  width: 1600px;
   background-color: #fff;
   color: #212121;
 }
@@ -42,6 +43,7 @@ body {
 
 .contact-method {
   text-decoration: none;
+  font-style: normal;
   font-size: 14px;
   font-weight: 500;
   color: var(--standard-gray);
@@ -54,7 +56,12 @@ body {
   color: var(--standard-highlight-color);
 }
 
+.actual {
+  color: var(--standard-highlight-color);
+}
+
 .footer-style {
+  height: 251px;
   background-color: var(--standard-bg-color);
   color: #fff;
 }
@@ -62,28 +69,39 @@ body {
 .address-style {
   color: #fff;
   font-size: 14px;
+  font-style: normal;
 }
 
 /* Styles for index.html */
 
 .first-section {
+  height: 600px;
   background-color: var(--standard-bg-color);
   color: #fff;
 }
 
 .first-section-title {
   font-size: 44px;
+  letter-spacing: 0.2rem;
+  width: 696px;
+  height: 120px;
   text-align: center;
 }
 
 .first-section-button {
   color: #fff;
   background-color: var(--standard-highlight-color);
+  font-family: inherit;
+  font-size: 16px;
   width: 200px;
   height: 50px;
   border-radius: 4px;
-  margin-left: 50%;
   cursor: pointer;
+}
+
+.first-section-button:hover,
+.first-section-button:focus {
+  background-color: #188ce8;
 }
 
 .what-we-do-title {
@@ -100,6 +118,10 @@ body {
   color: var(--standard-gray);
   font-size: 14px;
   line-height: 1.7;
+}
+
+.our-team-section {
+  background-color: #f5f4fa;
 }
 
 .team-title {
@@ -119,6 +141,7 @@ body {
 /* Styles for portofolio.html */
 
 .portofolio-button {
+  font-family: inherit;
   font-weight: 500;
   line-height: 1.625;
   background-color: #f5f4fa;
@@ -128,7 +151,8 @@ body {
 }
 
 .portofolio-button:hover,
-.portofolio-button:focus {
+.portofolio-button:focus,
+.portofolio-button:active {
   color: #fff;
   background-color: var(--standard-highlight-color);
 }
