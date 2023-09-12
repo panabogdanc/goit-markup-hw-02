@@ -78,14 +78,17 @@ body {
   height: 600px;
   background-color: var(--standard-bg-color);
   color: #fff;
+  overflow: auto;
 }
 
 .first-section-title {
   font-size: 44px;
   letter-spacing: 0.2rem;
   width: 696px;
-  height: 120px;
   text-align: center;
+
+  height: 120px;
+  margin: 200px 452px 30px 452px;
 }
 
 .first-section-button {
@@ -93,10 +96,15 @@ body {
   background-color: var(--standard-highlight-color);
   font-family: inherit;
   font-size: 16px;
+  cursor: pointer;
+
   width: 200px;
   height: 50px;
   border-radius: 4px;
-  cursor: pointer;
+  border-color: #000;
+  margin: 0 700px 200px 700px;
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .first-section-button:hover,
@@ -151,8 +159,7 @@ body {
 }
 
 .portofolio-button:hover,
-.portofolio-button:focus,
-.portofolio-button:active {
+.portofolio-button:focus {
   color: #fff;
   background-color: var(--standard-highlight-color);
 }
